@@ -2,12 +2,14 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     width: 100%;
     overflow: hidden;
-    border: 3px solid #c5c52e;
+    border: 3px solid rgba(118,8,23,1);
+    background-color: white;
     border-radius: 20px;
     height: 100%;
 
@@ -15,17 +17,11 @@ export const Wrapper = styled.div`
         width: 100%;
         border-radius: 0;
         color: white;
-        background-color: #c5c52e;
-        box-shadow: inset -0.15rem 0.12rem rgba(197, 197, 46, 0.327);
+        background-image: linear-gradient( 178.2deg,  rgba(118,8,23,1) 10.9%, rgba(158,12,33,1) 62.6% );
         font-size: 1rem;
 
         &:hover {
-            background-image: linear-gradient(
-        109.5deg,
-        rgba(197, 197, 46, 0.6) 11.2%,
-        rgba(197, 197, 46, 0.849) 100.2%
-      );
-            border-color: #ffffff;
+            background-image: linear-gradient( 178.2deg,  rgba(158,12,33,1) 10.9%, rgba(118,8,23,1) 62.6% );
         }
     }
 
@@ -36,7 +32,7 @@ export const Wrapper = styled.div`
     }
 
     div {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Dosis', sans-serif;;
         padding: 1.5rem;
         height: 100%;
     }
