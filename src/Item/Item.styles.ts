@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
     flex-direction: column;
     width: 100%;
     overflow: hidden;
-    border: 3px solid rgba(118,8,23,1);
+    border: 2px solid rgba(118,8,23,1);
     background-color: white;
     border-radius: 20px;
     height: 100%;
