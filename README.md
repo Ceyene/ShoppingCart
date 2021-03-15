@@ -3,7 +3,7 @@
 Small project with React and TypeScript, made by following a freecodecamp tutorial to practice. 
 Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-You can see it in: http://ceyene.github.io/ShoppingCart
+You can see it in: https://ceyene.github.io/ShoppingCart/
 
 ### Installation and Setup Instructions
 Clone down this repository. You will need node and npm installed globally on your machine.
